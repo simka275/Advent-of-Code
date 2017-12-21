@@ -10,6 +10,6 @@ Cargo.lock
 **/*.rs.bk
 
 # Ignore 2017
-2017/
+2017/*
 # except the code ...
 !2017/*.rs
