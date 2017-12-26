@@ -82,10 +82,21 @@ fn traverse() {
     let mut row = grid.len()/2;
     let mut col = grid.len()/2;
     let mut dir = "up";
-    let mut bursts = 10000000;
+    // let mut bursts = 10000; // part one
+    let mut bursts = 10000000; // part two
     let mut infections = 0;
     while bursts > 0 {
         // cleanup or infect
+        // // part one
+        // if grid[row][col] == '#' { // at infected
+        //     dir = turn_right(dir);
+        //     grid[row][col] = '.';
+        // } else if grid[row][col] == '.' { // at clean
+        //     dir = turn_left(dir);
+        //     grid[row][col] = '#';
+        //     infections += 1;
+        // }
+        // part two
         if grid[row][col] == '#' { // at infected
             dir = turn_right(dir);
             grid[row][col] = 'F';
