@@ -70,5 +70,5 @@ fn main() {
     let connections = read_connections();
     // println!("{:?}", connections);
     // println!("{:?}", max_strength(0,connections)); // part one
-    println!("{:?}", calc_bridge_strength(&gen_max_bridge(0,connections)));
+    println!("{:?}", calc_bridge_strength(&gen_max_bridge(0,connections))); // part two
 }
