@@ -13,3 +13,5 @@ Cargo.lock
 2017/*
 # except the code ...
 !2017/*.rs
+
+.vscode
