@@ -15,3 +15,5 @@ Cargo.lock
 !2017/*.rs
 
 .vscode
+
+input
